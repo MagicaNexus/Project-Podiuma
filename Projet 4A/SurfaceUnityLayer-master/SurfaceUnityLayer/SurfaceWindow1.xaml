@@ -1,0 +1,11 @@
+﻿<s:SurfaceWindow x:Class="SurfaceUnityLayer.SurfaceWindow1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:s="http://schemas.microsoft.com/surface/2008"
+    Title="SurfaceUnityLayer"
+                 
+                 
+    WindowStyle="None" AllowsTransparency="True" Background="#01FFFFFF"
+    Topmost="True" WindowState="Maximized" ResizeMode="NoResize" Loaded="SurfaceWindow_Loaded" ManipulationStarting="SurfaceWindow_ManipulationStarting" ManipulationStarted="SurfaceWindow_ManipulationStarted" ManipulationDelta="SurfaceWindow_ManipulationDelta" Height="300" Width="300" IsManipulationEnabled="True" TouchUp="SurfaceWindow_TouchUp" TouchDown="SurfaceWindow_TouchDown">
+    <!-- Above : Unity wrapper specifics -->
+</s:SurfaceWindow>
